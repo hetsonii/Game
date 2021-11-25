@@ -17,6 +17,7 @@ void main()
     int a=20, b;
 
     START:
+    a=20;
 
     sleep(2);
     printf("\nPick Your Number : ");
@@ -142,6 +143,13 @@ void main()
         printf("\nThe remaining Number is %d", a);
     }
 
+    if(a==7 && (b==1 || b==3 || b==4))
+    {
+        printf("\nOkay, I choose 1");
+        a = a-1;
+        printf("\nThe remaining Number is %d", a);
+    }
+
     if(a==8 && (b==1 || b==3 || b==4))
     {
         printf("You are Playing well! Keep Going.");
@@ -173,6 +181,15 @@ void main()
     {
         printf("\nAnd I choose 4");
         a = a-4;
+        printf("\nThe remaining Number is %d", a);
+    }
+
+    if(a==12 && (b==1 || b==3 || b==4))
+    {
+        printf("You're Playing pretty good! Keep Going");
+        sleep(2);
+        printf("\nI choose 3");
+        a = a-3;
         printf("\nThe remaining Number is %d", a);
     }
 

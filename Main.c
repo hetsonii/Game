@@ -334,7 +334,7 @@ void main()
         printf("\nWow! Congratulations! You actually managed to pull this victory of!\n");
         sleep(1);
         printf("You must be pretty intelligent to defeat me!\nHere you go this is your Reward.\n\n");
-        sleep(0.5);
+        usleep(500000);
         printf("Open this link and Claim Your REWARD - https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     }
 
